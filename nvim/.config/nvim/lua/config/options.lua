@@ -4,8 +4,7 @@
 
 vim.opt.swapfile = false
 vim.opt.hidden = false
--- vim.o.clipboard = "unnamedplus"
-
+vim.opt.mouse = ""
 vim.o.clipboard = "unnamedplus"
 
 local function paste()

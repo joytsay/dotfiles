@@ -148,5 +148,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 #bindkeys
 bindkey -v
-bindkey '^b'   backward-word        
-bindkey '^w'   forward-word      
+unset zle_bracketed_paste
