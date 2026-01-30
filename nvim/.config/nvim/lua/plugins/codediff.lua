@@ -2,7 +2,7 @@ return {
   "esmuellert/codediff.nvim",
   keys = {
     {
-      "<leader>gD",
+      "<leader>cD",
       function()
         vim.cmd("CodeDiff")
       end,

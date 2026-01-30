@@ -157,3 +157,5 @@ bindkey -v
 #unset zle_bracketed_paste
 alias vim='nvim'
 
+export VISUAL="nvim"
+export EDITOR="nvim"
