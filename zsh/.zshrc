@@ -154,6 +154,7 @@ export PATH="$HOME/.fzf/bin:$PATH"
 
 #bindkeys
 bindkey -v
+bindkey -M viins '^R' history-incremental-search-backward
 #unset zle_bracketed_paste
 alias vim='nvim'
 
